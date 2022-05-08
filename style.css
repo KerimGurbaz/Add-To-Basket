@@ -1,104 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    width: 100vw;
-    font-family: 'Ubuntu', sans-serif;
-
-}
-
-table{
-    border-collapse: collapse;
-    background-color: #f9f5f5;
-
-
-}
-td,th{
-    border: 1px solid rgb(190, 190, 190);
-    padding: 10px;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+  font-family: "Ubuntu", sans-serif;
 }
 
-thead tr th:nth-child(1),thead tr th:nth-child(2){
-    text-align: left;
-    padding: 5px;
+table {
+  border-collapse: collapse;
+  background-color: #f9f5f5;
+}
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
 }
 
-tbody tr td:nth-child(1),tbody tr td:nth-child(2){
-    text-align:left;
-    padding: 5px;
+thead tr th:nth-child(1),
+thead tr th:nth-child(2) {
+  text-align: left;
+  padding: 5px;
 }
 
-th[scope="row"],th[scope="col"]{
-    background-color: #696969;
-    color: #fff;
-    text-align: end;
+tbody tr td:nth-child(1),
+tbody tr td:nth-child(2) {
+  text-align: left;
+  padding: 5px;
 }
 
-tr:nth-child(odd){
-    background-color: rgb(226, 225, 225);
+th[scope="row"],
+th[scope="col"] {
+  background-color: #696969;
+  color: #fff;
+  text-align: end;
 }
 
-tbody tr td:nth-child(4),tbody tr td:nth-child(5), thead th:nth-child(4),thead th:nth-child(5){
-    
-    text-align: right;
-    width: 7rem;
+tr:nth-child(odd) {
+  background-color: rgb(226, 225, 225);
 }
 
- tbody tr td:nth-child(6){
-
-    width: 4.5rem;
-    word-spacing: 1.2rem;
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(5),
+thead th:nth-child(4),
+thead th:nth-child(5) {
+  text-align: right;
+  width: 7rem;
 }
 
-.prd-name{
-    background-color: red;
-    width: 15rem;
-}
-.end{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    margin-left: 14rem;
-    width:50%;
-}
-.end1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around; 
-    background-color: coral;
-    margin: 10px;
-    height: 2rem;
-    width: 23rem;
-    border-radius: 5px;
+tbody tr td:nth-child(6) {
+  width: 4.5rem;
+  word-spacing: 1.2rem;
 }
 
-.end2{
-
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    background-color: coral;
-    margin: 10px;
-    height: 2rem;
-    width: 23rem;
-    border-radius: 5px;
+.prd-name {
+  background-color: red;
+  width: 15rem;
+}
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14rem;
+  width: 50%;
+}
+.end1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: coral;
+  margin: 10px;
+  height: 2rem;
+  width: 23rem;
+  border-radius: 5px;
 }
 
-.end p{
-    color: #fff;
-    padding: 10px;
-    font-size: 1.2rem;
-}
-.end i{
-    font-size: 20px;
-    margin: 5px;
+.end2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: coral;
+  margin: 10px;
+  height: 2rem;
+  width: 23rem;
+  border-radius: 5px;
 }
 
+.end .Continue {
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}
+.end i {
+  font-size: 20px;
+  margin: 5px;
+}
